@@ -3,6 +3,17 @@ entries:
   docker-hub-rate-limit-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-01-29T12:56:03.92378614Z"
+    description: Export your current docker hub rate limit status to prometheus.
+    digest: 57accb081578f996eea984d8d9f0b1932cc3a5bb1c8c9e31c319860d1413caa4
+    icon: https://github.com/shpwrck/docker-hub-rate-limit-exporter/raw/main/chart/icon.png
+    name: docker-hub-rate-limit-exporter
+    type: application
+    urls:
+    - https://github.com/shpwrck/docker-hub-rate-limit-exporter/releases/download/docker-hub-rate-limit-exporter-0.2.3/docker-hub-rate-limit-exporter-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-01-28T15:03:55.734811993Z"
     description: Export your current docker hub rate limit status to prometheus.
     digest: 7e7731c03ca5550aace55d019009fda0bee0615c8fa32ec8cf11e5d4ba2ece1b
